@@ -7,6 +7,7 @@ import Login from '../src/components/authentication/login/login'
 import Signup from '../src/components/authentication/signup/signup'
 import PersonalInfo from './components/authentication/personalInformation/personalInfo'
 import UploadeResume from './components/authentication/uploadResume/uploadResume'
+import Dashboard from './components/dashboard/dashboard'
 import './App.css';
 
 
@@ -18,6 +19,7 @@ function App() {
         <Navbar/>
         <Switch>
         <Route exact path ='/Home' component={Home}/>
+        <Route  path ='/Dashboard' component={Dashboard}/>
         <Route path ='/Login' component={Login}/>
         <Route path ='/Signup' component={Signup}/>
         <Route path ='/PersonalInformation' component={PersonalInfo}/>
