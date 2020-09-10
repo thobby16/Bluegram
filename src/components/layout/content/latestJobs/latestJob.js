@@ -1,7 +1,11 @@
 import React from 'react'
 import { Card , CardColumns ,Row , Col, Container} from 'react-bootstrap'
 import del from '../../../../images/deloitee1.png';
+import Love from '../../../icons/latestJobsIcons/love';
+import Dollar from '../../../icons/latestJobsIcons/dollar';
 import './latestjob.css';
+import FullTime from '../../../icons/latestJobsIcons/fulltime';
+import Location from '../../../icons/latestJobsIcons/location';
 
 const latestJob = ()=> {
     return (
@@ -15,11 +19,15 @@ const latestJob = ()=> {
                     <Col >
                         <Card className="latestjob-class">
                             <Card.Body>
+                                <span className="fulltime"><FullTime/></span>
                                 <img src={del}/>
-                                <Card.Title className="card-title-jobfield">Accounting, Auditing and Finance</Card.Title>
-                                    <Card.Text className="card-text-jobfield">
-                                        (300 open positions)
+                                <span className="love"><Love/></span>
+                                <Card.Title className="card-title-latestjob">Accounting Intern</Card.Title>
+                                    <Card.Text className="card-text-latestjob">
+                                    Deloitte
                                     </Card.Text>
+                                    <span className="dollar"> <Dollar/></span>
+                                    <span className="location"><Location/></span>
                     
                             </Card.Body>
                         </Card>
@@ -27,10 +35,12 @@ const latestJob = ()=> {
                     <Col >
                         <Card  className="latestjob-class">
                         <Card.Body>
+                        <span className="fulltime"><FullTime/></span>
                         <img src={del}/>
-                            <Card.Title className="card-title-jobfield">Accounting, Auditing and Finance</Card.Title>
-                                <Card.Text className="card-text-jobfield">
-                                    (300 open positions)
+                        <span className="love"><Love/></span>
+                            <Card.Title className="card-title-latestjob">Accounting Intern</Card.Title>
+                                <Card.Text className="card-text-latestjob">
+                                Deloitte
                                 </Card.Text>
                 
                         </Card.Body>
@@ -39,10 +49,12 @@ const latestJob = ()=> {
                     <Col >
                         <Card  className="latestjob-class">
                             <Card.Body>
+                            <span className="fulltime"><FullTime/></span>
                             <img src={del}/>
-                                <Card.Title className="card-title-jobfield">Accounting, Auditing and Finance</Card.Title>
-                                    <Card.Text className="card-text-jobfield">
-                                        (300 open positions)
+                            <span className="love"><Love/></span>
+                                <Card.Title className="card-title-latestjob">Accounting Intern</Card.Title>
+                                    <Card.Text className="card-text-latestjob">
+                                    Deloitte
                                     </Card.Text>
                     
                             </Card.Body>
@@ -51,10 +63,12 @@ const latestJob = ()=> {
                     <Col >
                         <Card  className="latestjob-class">
                             <Card.Body>
+                            <span className="love"><Love/></span>
+                            <span className="fulltime"><FullTime/></span>
                             <img src={del}/>
-                                <Card.Title className="card-title-jobfield">Accounting, Auditing and Finance</Card.Title>
-                                    <Card.Text className="card-text-jobfield">
-                                        (300 open positions)
+                                <Card.Title className="card-title-latestjob">Accounting Intern</Card.Title>
+                                    <Card.Text className="card-text-latestjob">
+                                    Deloitte
                                     </Card.Text>
                     
                             </Card.Body>
@@ -63,10 +77,12 @@ const latestJob = ()=> {
                     <Col >
                         <Card  className="latestjob-class">
                             <Card.Body>
+                            <span className="fulltime"><FullTime/></span>
                             <img src={del}/>
-                                <Card.Title className="card-title-jobfield">Accounting, Auditing and Finance</Card.Title>
-                                    <Card.Text className="card-text-jobfield">
-                                        (300 open positions)
+                            <span className="love"><Love/></span>
+                                <Card.Title className="card-title-latestjob">Accounting Intern</Card.Title>
+                                    <Card.Text className="card-text-latestjob">
+                                        Deloitte
                                     </Card.Text>
                     
                             </Card.Body>
@@ -75,9 +91,11 @@ const latestJob = ()=> {
                     <Col >
                         <Card  className="latestjob-class">
                             <Card.Body>
+                            <span className="fulltime"><FullTime/></span>
                             <img src={del}/>
-                                <Card.Title className="card-title-jobfield">Accounting, Auditing and Finance</Card.Title>
-                                    <Card.Text className="card-text-jobfield">
+                            <span className="love"><Love/></span>
+                                <Card.Title className="card-title-latestjob">Accounting Intern</Card.Title>
+                                    <Card.Text className="card-text-latestjob">
                                         (300 open positions)
                                     </Card.Text>
                     

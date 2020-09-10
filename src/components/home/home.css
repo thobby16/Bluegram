@@ -32,26 +32,32 @@
     background-blend-mode: multiply;
 }
 .cta{
-    width: 22.57%;
+    width: 100%;
     float: left;
     margin-top: 35px;
+    display: flex;
+}
+.cta button.first.btn.btn-primary{
+    margin-left: 0;
+}
+.cta button.second.btn.btn-primary{
+    margin-left: 0;
 }
 .first {
     background: #0056C6;
     border-radius: 3px;
     float: left;
-    width: 47.5%;
+    width: 12%;
     border-color: #FFFFFF;
     margin-left: 0;
     margin-right: 2%;
-    display: inherit;
 }   
 .second{
     background-color: transparent;
     border-radius: 3px;
     border-color: #FFFFFF;
-    width: 47.5%;
-    margin-left: 3%;
+    width: 12%;
+    margin-left: 0;
     display: inherit;
     
 

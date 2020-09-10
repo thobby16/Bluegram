@@ -54,7 +54,7 @@ class UploadResume extends Component{
                             <Form.Label>Years of experience</Form.Label>
                                 
                                 <Form.Control as="select" defaultValue="select">
-                                    <option>select</option>
+                                    <option>Select</option>
                                     <option>...</option>
                                 </Form.Control>
                             </Form.Group>

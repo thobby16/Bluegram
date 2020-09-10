@@ -95,3 +95,11 @@
     
     cursor: pointer;
 }
+.latestjob-class .card-body span.love{
+    position: absolute;
+    margin-left: 24%;
+}
+.latestjob-class .card-body span.fulltime{
+    position: absolute;
+    margin-left: -39%;
+}
