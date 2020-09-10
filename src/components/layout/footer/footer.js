@@ -1,5 +1,8 @@
 import React from 'react'
 import {ModalFooter, Container ,Row ,Col} from 'react-bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faFacebook , faInstagram ,faTwitter ,faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+
 import './footer.css'
 
 const footer = ()=>{
@@ -49,12 +52,13 @@ const footer = ()=>{
         </Container>
         <div className= "copyright">
             <p>Copyright © BLUEGRAM 2020. All Rights Reserved.</p>
-            <div className="Socials">
-                <ul>
-                    <li><a href="#">M</a></li>
-                    <li><a href="#">G</a></li>
-                    <li><a href="#">L</a></li>
-                    <li><a href="#">F</a></li>
+            <div className="socials">
+                <ul className="list-unstyled">
+                    <li><FontAwesomeIcon icon={faTwitter} color="#FFFFFF"></FontAwesomeIcon></li>
+                    <li><FontAwesomeIcon icon={faFacebook} color="#FFFFFF"></FontAwesomeIcon></li>
+                    <li><FontAwesomeIcon icon={faInstagram} color="#FFFFFF"></FontAwesomeIcon></li>
+                    <li><FontAwesomeIcon icon={faLinkedinIn} color="#FFFFFF"></FontAwesomeIcon></li>
+                    
                 </ul>
             </div>
         </div>

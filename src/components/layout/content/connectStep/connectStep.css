@@ -34,6 +34,84 @@
     width: 100%;
     color: #000000;
 }
+
+.connect .connect1 p.cbody .col h5{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #0056C6;
+    margin-left: 23%;
+}
+.connect .connect1 p.cbody .row .End.col{
+    margin-left: 0;
+    padding-left: 0;
+
+}
+.connect .connect1 p.cbody .row{
+    margin-left: 4px;
+    margin-top: 6px;
+}
+.connect .connect1 p.cbody .row .begin.col{
+    padding-right: 0;
+    margin-right: 0;
+
+}
+
+.connect .connect1 p.cbody .row .middle.col{
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+.connect .connect1 p.cbody .col p.alpha{
+    width: 43%;
+}
+.connect .connect1 p.cbody .col p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #F0A800;
+    padding: 3px 7px;
+    border-radius: 15px;
+    width: 42%;
+    margin-left: 37%;
+}
+.connect .connect1 p.cbody .col h6{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0A1128;
+    
+}
+.connect .connect1 p.cbody .col h6.alpha{
+    margin-left: 25%;
+}
+.connect .connect1 p.cbody .line{
+    width: 93px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.connect .connect1 p.cbody hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border: 1px solid #92B5DD;
+    margin: 1.4em 0;
+    padding: 0;
+}
 .bbody{
     background: #0056C6;
     border-radius: 3px;

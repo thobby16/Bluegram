@@ -50,4 +50,17 @@
     font-size: 14px;
     line-height: 18px;
     color: #FFFFFF;
+    width: 50%;
+    margin-left: 25%;
+    float: left;
+}
+.main-footer .copyright .socials{
+    width: 15%;
+    float: right;
+}
+.main-footer .copyright .socials ul{
+    display: flex;
+}
+.socials ul li{
+    margin: 0 5px;
 }

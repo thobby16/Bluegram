@@ -1,19 +1,19 @@
-.signup{
+.upload{
     width: 100%;
     margin-top: 93px
 }
-.signup .image{
+.upload .image{
     width: 50%;
     float: left;
 }
-.signup .form{
+.upload .form{
    width: 98%;
    padding-left: 62%;
 }
 .form-control{
     border: 1px solid #92B5DD;
 }
-.signup .form h2{
+.upload .form h2{
     font-family: Nunito;
     font-style: normal;
     font-weight: 800;
@@ -23,14 +23,13 @@
     text-align: left;
     padding-top: 205px;
 }
-.signup .form p{
+.upload .form p{
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     text-align: left;
-    margin-bottom: 69px;
     /* identical to box height, or 150% */
 
 
@@ -51,7 +50,7 @@
 .form .last.form-row {
     margin-bottom: 82px
 }
-.signup .form p.forget{
+.upload .form p.forget{
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
@@ -69,16 +68,16 @@
     position: absolute;
     margin-left: -9%;
 }
-.form .btn{
+.upload .form .btn{
     background: #0056C6;
     border-radius: 3px;
-    width: 73%;
-    padding-left: 30%;
+    width: 79%;
+    padding-left: 34%;
     margin-left: 0;
     margin-top: 51px;
 }
 
-.signup .form p.need{
+.upload .form p.need{
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
@@ -90,7 +89,7 @@
     cursor: pointer;
 
 }
-.signup .form p.need a{
+.upload .form p.need a{
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
@@ -102,4 +101,16 @@
     color: #0056C6;
     cursor: pointer;
 
+}
+.upload .form .last.form-row{
+    margin-bottom: 48px;
+}
+.upload .form p.apply{
+    width: 101%;
+}
+.upload .form p{
+    width: 79%;
+}
+.upload .form .bottom.form-row{
+    margin-bottom: 44px;
 }

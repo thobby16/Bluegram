@@ -21,8 +21,27 @@ class connectStep extends Component{
                 <Card.Body >
                     <Card.Title className="chead">Connect with Top Employers</Card.Title>
                         <Card.Text className="cbody">
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            <Row>
+                                <Col className="begin">
+                                <h5>Step</h5>
+                                <p className= "alpha">1</p>
+                                <h6 className= "alpha">Sign up</h6>
+                                </Col>
+                                <Col className="line" ><hr/></Col>
+                                
+                                <Col className="middle">
+                                <h5>Step</h5>
+                                <p>2</p>
+                                <h6>Complete Profile</h6>
+                                </Col>
+                                <Col className="line"><hr/></Col>
+                                
+                                <Col className="End">
+                                <h5>Step</h5>
+                                <p>3</p>
+                                <h6>Start Applying</h6>
+                                </Col>
+                            </Row>
                         </Card.Text>
                     <Button className="bbody">Find Jobs</Button>
                 </Card.Body>
