@@ -1,25 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
+import {BrowserRouter, Switch, Route} from 'react-router-dom'
+import Navbar from '../src/components/layout/header/navbar'
+import './components/icons'
+import Home from '../src/components/home/home'
+import Login from '../src/components/authentication/login/login'
+import Signup from '../src/components/authentication/signup/signup'
+import PersonalInfo from './components/authentication/personalInformation/personalInfo'
+import UploadeResume from './components/authentication/uploadResume/uploadResume'
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+      <BrowserRouter>
+      <div className="App">
+        <Navbar/>
+        <Switch>
+        <Route exact path ='/Home' component={Home}/>
+        <Route path ='/Login' component={Login}/>
+        <Route path ='/Signup' component={Signup}/>
+        <Route path ='/PersonalInformation' component={PersonalInfo}/>
+        <Route path ='/UploadResume' component={UploadeResume}/>
+
+        </Switch>
+        
+      </div>
+      </BrowserRouter>
+    
+    
   );
 }
 

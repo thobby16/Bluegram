@@ -1,0 +1,84 @@
+.login{
+    width: 100%;
+    margin-top: 93px
+}
+.login .image{
+    width: 50%;
+    float: left;
+}
+.login .form{
+   width: 98%;
+   padding-left: 62%;
+}
+.form-control{
+    border: 1px solid #92B5DD;
+}
+.login .form h2{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;
+    color: #0056C6;
+    text-align: left;
+    padding-top: 205px;
+}
+.login .form p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    /* identical to box height, or 150% */
+
+
+    color: #000000;
+}
+
+.login .form p.forget{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    padding-left: 60%;
+    /* identical to box height */
+
+
+    color: #0056C6;
+    cursor: pointer;
+}
+.form .btn{
+    background: #0056C6;
+    border-radius: 3px;
+    width: 82%;
+    padding-left: 37%;
+    margin-left: 0;
+}
+
+.login .form p.need{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    margin-top: 42px;
+    text-align: center;
+/* identical to box height */
+    cursor: pointer;
+
+}
+.login .form p.need a{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #0056C6;
+    cursor: pointer;
+
+}
