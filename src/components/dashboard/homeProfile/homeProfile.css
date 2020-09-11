@@ -41,10 +41,122 @@
     margin-left: 12%;
     margin-top: 26px;
 }
-.main.row{
+.main{
+   display: flex;
+   padding-left: 8%;
+}
+.main .first1{
+    width: 21%;
+    margin-right: 2%;
+}
+.main .first1 .card{
+    margin-top: 43px;
+    height: 613px;
+}
+.main .first1 .card .card-header{
+    background: #0056C6;
+    border-radius: 5px 5px 0px 0px;
+    color: #ffffff;
+    text-align: left
+}
+.main .first1 .card .card-header span.edit{
+    margin-left: 40px;
+}
+.main .first1 .card .card-body .card-title.h5{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #999999;
+}
+.main .first1 .card .card-body p.card-text{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.main .second1{
+    width: 36%;
+    margin-top: 43px;
+}
+.main .third{
+    margin-left: 2%;
+    margin-top: 43px;
+    width: 25%;
+}
+.main .third .last.card .card-header{
+    background: #0056C6;
+    border-radius: 5px 5px 0px 0px;
+    text-align: left;
+}
+.main .third .last.card .card-body .card-title.h5{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    /* align-items: center; */
+    color: #000000;
+    text-align: left;
+}
+.main .third .last.card .card-body p.card-text{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.main .second1 .middle.card .card-header{
+    text-align: left;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+
+    color: #000000;
+    background-color: #ffffff;
     
-    margin-left: 0;
-    margin-right: 0;
+}
+.main .second1 .middle.card .card-body .card-title.h5{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    /* identical to box height, or 100% */
+
+
+    color: #000000;
+}
+.main .second1 .middle.card .card-body p.card-text{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.main .third .last.card .card-header span.edit{
+    margin-left: 35%;
 }
 .main.row .col .middle.card{
     width: 37rem;
@@ -59,23 +171,13 @@
     color: #000000;
     text-align: left;
 }
-.main.row .card{
-    width: 16rem;
-    margin-left: 9%;
-    margin-top: 43px;
-    height: 613px;  
-}
+
 .main.row .col .last.card{
     margin-left: 0;
     width: 16rem;
     height: 126px;
 }
-.main.row .card-header{
-    background: #0056C6;
-    border-radius: 5px 5px 0px 0px;
-    color: #ffffff;
-    text-align: left
-}
+
 .main.row .card-body .card-title.h5{
     font-family: Source Sans Pro;
     font-style: normal;
@@ -87,18 +189,9 @@
     color: #999999;
 }
 
-.main.row .card-body p.card-text{
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-}
+
 .main.row .card-header span.edit{
-    margin-left: 40px;
+    
 }
 .main.row .col .content.card{
     border: 0px;
