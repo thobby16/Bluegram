@@ -33,14 +33,14 @@
 
 }
 
-.card-title-jobfield{
+.card-title-latestjob{
     font-family: Source Sans Pro;
     font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     text-align: center!important;
-    padding-left: 20.1%;
+    font-weight: 600;
+    margin-top: 19px;
 /* identical to box height, or 150% */
 
 
@@ -48,19 +48,18 @@
 
     transform: rotate(0.45deg);
 }
-.card-text-jobfield{
+.card-text-latestjob{
    
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
     text-align: center;
     font-size: 14px;
-    line-height: 24px;
-    padding-left: 27.1%;
+    line-height: 18px;
     /* identical to box height, or 171% */
 
 
-    color: #012D60;
+    color: #0056C6;
 }
 .headtext a{
     font-family: Nunito;
@@ -102,4 +101,12 @@
 .latestjob-class .card-body span.fulltime{
     position: absolute;
     margin-left: -39%;
+}
+.latestjob-class .card-body span.dollar{
+    display: flex;
+    margin-top: 27px;
+}
+.latestjob-class .card-body span.location{
+    display: flex;
+    margin-top: 23px;
 }

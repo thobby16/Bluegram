@@ -127,14 +127,7 @@ class connectStep extends Component{
                         </Carousel.Item>
                        
                     </Carousel>
-                    <div className="arrow">
-                        
-                        <FontAwesomeIcon role="button" data-slide="prev" icon={faArrowCircleLeft} color="#0056C6" font-size ="40px" />
-                        
-                    
-                    <FontAwesomeIcon icon={faArrowCircleRight} color="#0056C6" font-size ="40px" />
-                    
-                    </div>
+                 
                     
                    
                     

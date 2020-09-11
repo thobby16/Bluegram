@@ -112,13 +112,13 @@
     margin: 1.4em 0;
     padding: 0;
 }
-.bbody{
+.card-body button.bbody{
     background: #0056C6;
     border-radius: 3px;
     width: 40%;
     height: 50px;
     padding-left: 74px;
-    margin-left: 164px;
+    margin-left: 30%;
 
 }
 .connect2{

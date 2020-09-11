@@ -42,6 +42,8 @@ const latestJob = ()=> {
                                 <Card.Text className="card-text-latestjob">
                                 Deloitte
                                 </Card.Text>
+                                <span className="dollar"> <Dollar/></span>
+                                    <span className="location"><Location/></span>
                 
                         </Card.Body>
                         </Card>
@@ -56,6 +58,8 @@ const latestJob = ()=> {
                                     <Card.Text className="card-text-latestjob">
                                     Deloitte
                                     </Card.Text>
+                                    <span className="dollar"> <Dollar/></span>
+                                    <span className="location"><Location/></span>
                     
                             </Card.Body>
                          </Card>
@@ -64,12 +68,15 @@ const latestJob = ()=> {
                         <Card  className="latestjob-class">
                             <Card.Body>
                             <span className="love"><Love/></span>
-                            <span className="fulltime"><FullTime/></span>
                             <img src={del}/>
+                            
+                            <span className="fulltime"><FullTime/></span>
                                 <Card.Title className="card-title-latestjob">Accounting Intern</Card.Title>
                                     <Card.Text className="card-text-latestjob">
                                     Deloitte
                                     </Card.Text>
+                                    <span className="dollar"> <Dollar/></span>
+                                    <span className="location"><Location/></span>
                     
                             </Card.Body>
                         </Card>
@@ -84,6 +91,8 @@ const latestJob = ()=> {
                                     <Card.Text className="card-text-latestjob">
                                         Deloitte
                                     </Card.Text>
+                                    <span className="dollar"> <Dollar/></span>
+                                    <span className="location"><Location/></span>
                     
                             </Card.Body>
                          </Card>
@@ -96,9 +105,10 @@ const latestJob = ()=> {
                             <span className="love"><Love/></span>
                                 <Card.Title className="card-title-latestjob">Accounting Intern</Card.Title>
                                     <Card.Text className="card-text-latestjob">
-                                        (300 open positions)
+                                        Deloitee
                                     </Card.Text>
-                    
+                                    <span className="dollar"> <Dollar/></span>
+                                    <span className="location"><Location/></span>
                             </Card.Body>
                         </Card>
                     </Col>

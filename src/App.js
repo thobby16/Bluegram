@@ -8,6 +8,7 @@ import Signup from '../src/components/authentication/signup/signup'
 import PersonalInfo from './components/authentication/personalInformation/personalInfo'
 import UploadeResume from './components/authentication/uploadResume/uploadResume'
 import Dashboard from './components/dashboard/dashboard'
+import HomeProfile from './components/dashboard/homeProfile/homeProfile'
 import './App.css';
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path ='/Signup' component={Signup}/>
         <Route path ='/PersonalInformation' component={PersonalInfo}/>
         <Route path ='/UploadResume' component={UploadeResume}/>
+        <Route path ='/HomeProfile' component={HomeProfile}/>
 
         </Switch>
         
