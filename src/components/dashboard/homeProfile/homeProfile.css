@@ -44,6 +44,7 @@
 .main{
    display: flex;
    padding-left: 8%;
+   background: #E5E5E5;
 }
 .main .first1{
     width: 21%;
@@ -96,6 +97,7 @@
     border-radius: 5px 5px 0px 0px;
     text-align: left;
 }
+
 .main .third .last.card .card-body .card-title.h5{
     font-family: Nunito Sans;
     font-style: normal;
@@ -154,6 +156,12 @@
 
     color: #000000;
 }
+.main .second1 .middle.card .card-body p.t2.card-text{
+    display: block;
+}
+.main .second1 .middle.card .card-body .t1.card-title.h5{
+    display: block;
+}
 
 .main .third .last.card .card-header span.edit{
     margin-left: 35%;
@@ -164,6 +172,17 @@
     border-radius: 5px;
     border: 1px solid;
     margin-left: 2%;
+}
+
+.main .second1 .middle.card .card-body p.sub.card-text{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
 }
 .main.row .col .middle.card .card-header{
     background: #ffffff;

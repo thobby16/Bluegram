@@ -58,23 +58,24 @@ class HomeProfile extends Component{
                     <Card className="middle" border="light" >
                         <Card.Header >Summary</Card.Header>
                         <Card.Body>
-                        <Card.Title> You haven’t added a profile summary yet!</Card.Title>
-                        <Card.Text>
+                        <Card.Title className="t1"> You haven’t added a profile summary yet!</Card.Title>
+                        <Card.Text className="t2">
                             <Add/>
                             Add Profile Summary
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className="middle" border="light" >
+                    <Card className="middle" border="light" style={{ marginTop:"23px"}} >
                         <Card.Header >Experience</Card.Header>
                         <Card.Body>
-                        <Card.Title>You haven’t added any job experience</Card.Title>
-                        <Card.Text>
-                            
+                        <Card.Title className="t1">You haven’t added any job experience</Card.Title>
+                        <Card.Text className="t2">
+                        <Add/>
+                            Add Experience
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className="middle" border="light" >
+                    <Card className="middle" border="light" style={{ marginTop:"23px"}} >
                         <Card.Header >Skills</Card.Header>
                         <Card.Body>
                         <Card.Title></Card.Title>
@@ -83,24 +84,38 @@ class HomeProfile extends Component{
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className="middle" border="light" >
-                        <Card.Header >Education 
-                            <p> <Add/>Add more </p>
-                            </Card.Header>
+                    <Card className="middle" border="light" style={{ marginTop:"23px"}} >
+                        <Card.Header  style={{paddingBottom:"0", display:"flex"}}>Education
+                        <span className="add" style={{marginLeft: "63%"}}><Add/></span> 
+                        <span className="addp"><p> Add more </p></span> 
+                        </Card.Header>
                         <Card.Body>
-                        <Card.Title>Light Card Title</Card.Title>
-                        <Card.Text>
-                            
-                        </Card.Text>
+                      
+                                 <Card.Text>
+                                The University of Texas, Austin  
+                                <span className="edit3" style={{marginLeft:"16%"}}><Edit3/></span>
+                               <span className="delete" style={{paddingLeft:"19px"}}><Delete1/></span>
+                                </Card.Text>
+                                <Card.Text className="sub">
+                                Bachelor’s Degree, Accounting
+                                </Card.Text>
+                                
+                                <Card.Text className="sub">
+                                Sept 2017 - Aug 2020
+                                </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className="middle" border="light" >
-                        <Card.Header >License and Certifications</Card.Header>
+                    <Card className="middle" border="light" style={{ marginTop:"23px"}} >
+                        <Card.Header style={{paddingBottom:"0", display:"flex"}} >License and Certifications
+                        <span className="add" style={{marginLeft: "36%"}}><Add/></span> 
+                        <span className="addp"><p> Add more </p></span>
+                        </Card.Header>
                         <Card.Body>
-                        <Card.Title>Light Card Title</Card.Title>
+                        <Card.Title></Card.Title>
                         <Card.Text>
                             
                         </Card.Text>
+                        <span className="award" Style={{marginLeft:"39%"}}><Award/></span>
                         </Card.Body>
                     </Card>
                     </div>
@@ -114,7 +129,7 @@ class HomeProfile extends Component{
                         
                         </Card.Body>
                     </Card>
-                    <Card  className="last" border="#E5E5E5" >
+                    <Card  className="last" border="#E5E5E5" style={{marginTop:'20px'}} >
                         <Card.Header>Employment Info
                             <span className="edit"><Edit/></span>
                         </Card.Header>
