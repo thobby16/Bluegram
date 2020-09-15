@@ -106,3 +106,8 @@
     border-radius: 3px;
     padding-left: 3%;
 }
+.search.card .form-row .form-group.col span.Map{
+    position: absolute;
+    margin-top: -13%;
+    margin-left: 39%;
+}

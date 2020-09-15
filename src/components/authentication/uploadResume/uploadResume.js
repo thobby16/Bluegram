@@ -3,9 +3,17 @@ import { Container, Form , Row , Col ,Button, FormLabel} from 'react-bootstrap';
 import {Link} from 'react-router-dom'
 import Signin from '../../../images/signin.png'
 import Upload from '../../../images/uploadresume.png'
+import Signup from '../signup/signup'
+import PersonalInfo from '../personalInformation/personalInfo'
 import './uploadResume.css'
 
 class UploadResume extends Component{
+    constructor(){
+        super()
+        this.state={
+
+        }
+    }
     render(){
         return(
             <div className="upload">
@@ -22,7 +30,7 @@ class UploadResume extends Component{
 
                         
                         <Form.Row>
-                        <Form.Group as={Col} controlId="formGridState">
+                        <Form.Group as={Col}>
                             <Form.Label>Highest qualification</Form.Label>
                                 <Form.Control as="select" defaultValue="Select">
                                     <option>Select</option>
@@ -35,7 +43,7 @@ class UploadResume extends Component{
 
                         </Form.Row>
                         <Form.Row>
-                        <Form.Group as={Col} controlId="formGridState">
+                        <Form.Group as={Col} >
                             <Form.Label>Job field</Form.Label>
                                 <Form.Control as="select" defaultValue="Select">
                                     <option>Select</option>
@@ -50,7 +58,7 @@ class UploadResume extends Component{
 
                         </Form.Row>
                         <Form.Row className="last">
-                        <Form.Group as={Col} md={5} controlId="formGridState">
+                        <Form.Group as={Col} md={5} >
                             <Form.Label>Years of experience</Form.Label>
                                 
                                 <Form.Control as="select" defaultValue="select">
@@ -65,7 +73,7 @@ class UploadResume extends Component{
                             <Col>
                             <p className="apply">Add a resume and easily apply for jobs from anywhere. It’s simple to set up.</p>
                             </Col>
-                            <Form.File id="formcheck-api-regular">
+                            <Form.File id="formcheck-api-regular" style={{ marginTop:'-23px'}}>
                         <Form.File.Label data-browse="select a file"></Form.File.Label>
                         <Form.File.Input />
                         </Form.File>

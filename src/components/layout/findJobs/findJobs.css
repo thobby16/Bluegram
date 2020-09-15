@@ -1,0 +1,61 @@
+.findJobCover {
+    margin-top: 93px;
+    background: linear-gradient(91.68deg, #0056C6 7.69%, rgba(77, 130, 176, 0.3) 72.17%, rgba(233, 180, 54, 0) 101.15%);
+    height: 200px;
+}
+.findJobCover h2{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+    padding-top: 71px;
+    margin-left: 8%;
+}
+.findJobCover p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+    margin-left: 8%;
+}
+.findJobBody{
+    display: flex;
+    width: 100%;
+    margin-left: 6%;
+    margin-right: 0;
+    margin-top: 72px;
+
+}
+.findJobBody .findJob-class{
+    width: 19%;
+    margin-left: 2%;
+    height: 217px;
+}
+.findJobBody .findJob-class .card-body span.fulltime{
+    position: absolute;
+    margin-left: -21px;
+}
+.findJobBody .findJob-class .card-body span.love{
+    position: relative;
+    margin-left: 88%;
+}
+.findJobBody .findJob-class .card-body span.dollar{
+    display: flex;
+    margin-top: 19px;
+}
+.findJobBody .findJob-class .card-body span.location{
+    display: flex;
+    margin-top: 9px;
+}

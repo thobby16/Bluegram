@@ -6,9 +6,17 @@ import personalInfo from '../../../images/personalinfo.png'
 import './personalInfo.css'
 
 class PersonalInfo extends Component{
+    constructor(){
+        super()
+        this.state={
+            dateOfBirth:"",
+            gender:"",
+            phone:""
+        }
+    }
     render(){
         return(
-            <div className="signup">
+            <div className="personal">
                       
                     <div className="image">
                     <img src={Signin}/>
@@ -22,14 +30,14 @@ class PersonalInfo extends Component{
 
                         
                         <Form.Row>
-                            <Form.Group as={Col} controlId="formGridState">
+                            <Form.Group as={Col} >
                             <Form.Label>Date of birth</Form.Label>
                                 <Form.Control as="select" defaultValue="Choose...">
                                     <option>Choose...</option>
                                     <option>...</option>
                                 </Form.Control>
                             </Form.Group>
-                            <Form.Group as={Col} controlId="formGridState">
+                            <Form.Group as={Col} >
                             <Form.Label>Month</Form.Label>
                                 <Form.Control as="select" defaultValue="Choose...">
                                     <option>Choose...</option>
@@ -37,7 +45,7 @@ class PersonalInfo extends Component{
                                 </Form.Control>
                             </Form.Group>
                             
-                            <Form.Group as={Col} controlId="formGridState">
+                            <Form.Group as={Col} >
                             <Form.Label>Year</Form.Label>
                                 <Form.Control as="select" defaultValue="Choose...">
                                     <option>Choose...</option>
@@ -47,7 +55,7 @@ class PersonalInfo extends Component{
 
                         </Form.Row>
                         <Form.Row>
-                        <Form.Group as={Col} controlId="formGridState">
+                        <Form.Group as={Col} >
                             <Form.Label>Gender</Form.Label>
                                 <Form.Control as="select" defaultValue="Choose...">
                                     <option>Choose...</option>

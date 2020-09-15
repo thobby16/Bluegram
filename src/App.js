@@ -9,6 +9,8 @@ import PersonalInfo from './components/authentication/personalInformation/person
 import UploadeResume from './components/authentication/uploadResume/uploadResume'
 import Dashboard from './components/dashboard/dashboard'
 import HomeProfile from './components/dashboard/homeProfile/homeProfile'
+import FindJobs from './components/layout/findJobs/findjobs'
+import MyJobs from './components/dashboard/myJob/myJobs'
 import './App.css';
 
 
@@ -22,10 +24,12 @@ function App() {
         <Route exact path ='/Home' component={Home}/>
         <Route  path ='/Dashboard' component={Dashboard}/>
         <Route path ='/Login' component={Login}/>
+        <Route path ='/FindJobs' component={FindJobs}/>
         <Route path ='/Signup' component={Signup}/>
         <Route path ='/PersonalInformation' component={PersonalInfo}/>
         <Route path ='/UploadResume' component={UploadeResume}/>
         <Route path ='/HomeProfile' component={HomeProfile}/>
+        <Route path ='/MyJobs' component={MyJobs}/>
 
         </Switch>
         

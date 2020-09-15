@@ -67,10 +67,11 @@ const latestJob = ()=> {
                     <Col >
                         <Card  className="latestjob-class">
                             <Card.Body>
-                            <span className="love"><Love/></span>
-                            <img src={del}/>
-                            
                             <span className="fulltime"><FullTime/></span>
+                            
+                            <img src={del}/>
+                            <span className="love"><Love/></span>
+                            
                                 <Card.Title className="card-title-latestjob">Accounting Intern</Card.Title>
                                     <Card.Text className="card-text-latestjob">
                                     Deloitte

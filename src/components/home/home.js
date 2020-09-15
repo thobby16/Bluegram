@@ -5,6 +5,7 @@ import './home.css'
 import { Card, Button, Form, Col ,CardColumns} from 'react-bootstrap'
 import JobField from '../layout/content/jobFields/jobField';
 import LatestJob from '../layout/content/latestJobs/latestJob';
+import Map from '../icons/homeIcon/map'
 import ConnectStep from '../layout/content/connectStep/connectStep';
 import Footer from '../layout/footer/footer'
 
@@ -32,17 +33,19 @@ const home = () => {
                 </Card.Text>
                <Form>
                <Form.Row>
-                <Form.Group as={Col} controlId="formGridJobtitle">
+                <Form.Group as={Col} >
                 
                 <Form.Control type="text" placeholder="Job title" />
                 </Form.Group>
 
-                <Form.Group as={Col} controlId="formGridzipcode">
-                <i className="fas fa-map-marker-alt"></i>
-                <Form.Control type="text" placeholder="City,state or Zipcode"  />
+                <Form.Group as={Col} >
+                
+                <Form.Control  type="text" placeholder="City,state or Zipcode">
+                </Form.Control>
+                <span className="Map"><Map/></span>
                 
                 </Form.Group>
-                <Form.Group as={Col} controlId="formGridJobfield">
+                <Form.Group as={Col} >
                 
                 <Form.Control as="select" defaultValue="Choose...">
                     <option>Job fields</option>

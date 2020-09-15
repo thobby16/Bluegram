@@ -107,6 +107,18 @@ const jobField = ()=> {
                         </Card.Body>
                     </Card>
                 </Col>
+                <Col>
+                <Card className="jobfields-class">
+                        <Card.Body>
+                            <Tech></Tech>
+                            <Card.Title className="card-title-jobfield">Engineering & Technology</Card.Title>
+                                <Card.Text className="card-text-jobfield">
+                                    (300 open positions)
+                                </Card.Text>
+                        
+                        </Card.Body>
+                    </Card>
+                </Col>
                 
             </Row>
                       </Container>

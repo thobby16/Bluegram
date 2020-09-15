@@ -13,7 +13,7 @@ import Award from '../icons/profileIcons/award'
 class Dashboard extends Component{
     render(){
         return(
-            <div>
+            <div >
                 <DashNav/>
                 <div className="cover">
                 <Row  >
@@ -24,7 +24,7 @@ class Dashboard extends Component{
                    
                 </Row>   
                 </div>
-                <Row className="main" >
+                <Row className="main" style={{backgroundColor:'#ffffff'}} >
                     
                     <Card border="#E5E5E5" >
                         <Card.Header>Basic Information
@@ -100,7 +100,7 @@ class Dashboard extends Component{
                                 <Card.Text>
                                N/A
                                 </Card.Text>
-                                <span className="add"></span>
+                                <span className="add" ></span>
                                 <Award/>
                                 
                                <span className="addp"> <p> <Add/><a href="#">Add a licence or certification</a> you have earned!</p></span>

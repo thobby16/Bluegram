@@ -16,7 +16,7 @@ const navbar = ()=>{
          <Nav.Link  as={Link} to="/Home">Home</Nav.Link>
          <Nav.Link to="#About Us">About Us</Nav.Link>
         <Nav.Link to="#Fields">Fields</Nav.Link>
-        <Nav.Link to="#Find Jobs">Find Jobs</Nav.Link>
+        <Nav.Link as={Link} to="/FindJobs">Find Jobs</Nav.Link>
         <Nav.Link to="#Contact Us">Contact Us</Nav.Link>
         
         </Nav>
