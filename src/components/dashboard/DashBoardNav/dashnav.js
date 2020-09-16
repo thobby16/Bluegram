@@ -14,7 +14,7 @@ const dashnav = ()=>{
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-         <Nav.Link  as={Link} to="#">My Jobs</Nav.Link>
+         <Nav.Link  as={Link} to="/MyJobs">My Jobs</Nav.Link>
          <Nav.Link to="#About Us">Job Listing</Nav.Link>
          <Form inline>
       <FormControl type="text" placeholder="Search for jobs" className="mr-sm-4" />

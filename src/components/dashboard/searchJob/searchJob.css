@@ -1,0 +1,125 @@
+.searchHead1{  
+    background-image: url(../../../images//searchBanner.png);
+    height: 167px;
+    margin-top: 106px;
+    
+}
+.searchHead2{
+    background: linear-gradient(91.68deg, #0056C6 7.69%, rgba(77, 130, 176, 0.3) 72.17%, rgba(233, 180, 54, 0) 101.15%);
+    height: 167px;
+}
+.searchHead2 p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 9%;
+    color: #FFFFFF;
+}
+.searchHead2 h2{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-top: 49px;
+    padding-left: 9%;
+
+}
+.searchHead1 .searchHead2 .form-row{
+    width: 66%;
+    margin-top: -27px;
+    margin-left: 30%;
+}
+.searchBody1{
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.searchBody1 .searchBody2 {
+    width: 26%;
+    float: left
+}
+.searchBody1 .searchBody2 .card-header{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    background-color: #FFFFFF;
+
+    color: #0056C6;
+}
+.searchBody1 .searchBody2 .card-header p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    display: flex;
+    border-bottom: 3px solid #F0A800;
+    text-align: center;
+
+    color: #000000;
+}
+.searchBody1 .searchBody2 .card-header a{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    float: right;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+
+    color: #0056C6;
+}
+.searchBody1 .searchBody2 .row{
+    margin-left: 0;
+    margin-right: 0;
+
+}
+.searchBody1 .searchBody2 .last.card .card-body .card-title.h5{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #0056C6;
+}
+.searchBody1 .searchBody2 .last.card .card-body p.card-text{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.searchBody1 .searchBody2 .row .col .myjob-class.card{
+    width: 100%;
+}
+.searchBody1 .searchBody2 .row .col{
+    margin-top: 60px;
+}
+.searchBody1 .searchBody2 .last.card .card-body span.location1{
+    display: flex;
+}

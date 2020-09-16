@@ -12,6 +12,7 @@ import HomeProfile from './components/dashboard/homeProfile/homeProfile'
 import FindJobs from './components/layout/findJobs/findjobs'
 import MyJobs from './components/dashboard/myJob/myJobs'
 import './App.css';
+import SearchJob from './components/dashboard/searchJob/searchJob';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path ='/UploadResume' component={UploadeResume}/>
         <Route path ='/HomeProfile' component={HomeProfile}/>
         <Route path ='/MyJobs' component={MyJobs}/>
+        <Route path ='/SearchJobs' component={SearchJob}/>
 
         </Switch>
         
