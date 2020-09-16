@@ -102,7 +102,7 @@ class SearchJob extends Component{
                         </Card.Body>
                     </Card>
                     </div>
-                    <div className="searchBody2">
+                    <div className="searchBody3">
                     
                              <Card className="searchJob-class">
                             <Card.Body>

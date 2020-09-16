@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import './findJobs.css'
 import Love from '../../icons/latestJobsIcons/love'
 import FullTime from '../../icons/latestJobsIcons/fulltime'
@@ -6,10 +6,18 @@ import Dollar from '../../icons/latestJobsIcons/dollar'
 import Location from '../../icons/latestJobsIcons/location'
 import del from '../../../images/deloitee1.png'
 import { Row, Col, Card } from 'react-bootstrap'
+import axios from 'axios'
 
-const findJobs =()=>{
-    return(
-        <div>
+class findJobs extends Component{
+    componentDidMount(){
+        axios.get('https://bluegram-api.herokuapp.com/api/v1/job/1')
+        .then(Response=>{
+            console.log(Response);
+        })
+    }
+    render(){
+        return(
+            <div>
             <div className="findJobCover">
                 
                 <h2>Find Jobs</h2>
@@ -77,7 +85,9 @@ const findJobs =()=>{
             </div>
 
         </div>
-    )
+
+        )
+    }
 }
 
 export default findJobs

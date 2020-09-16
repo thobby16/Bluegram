@@ -1,0 +1,81 @@
+div{
+    
+}
+.applicationForm{
+    margin-top: 106px;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.applicationForm .card .card-body h4{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 34px;
+    padding-left: 70px;
+
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #0056C6;
+}
+.applicationForm .card .card-body p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+
+    color: #000000;
+}
+.applicationForm .card .card-body p:after{
+    content:"*" ;
+    color:red
+}
+.applicationForm .card .card-body .mid .btn{
+    background: #0056C6;
+    border-radius: 5px;
+    width: 31%;
+    
+    height: 50px;
+    padding-left: 93px;
+    margin-left: 109px;
+}
+.applicationForm .card .card-body span.dollarIcon{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.applicationForm .card .card-body .mid .form-check{
+    padding-left: 16%;
+    margin-top: 37px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+
+    color: #000000;
+}
+.applicationForm .card .card-body p.info{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    content: none;
+    color: #000000;
+    margin-top: 56px;
+}

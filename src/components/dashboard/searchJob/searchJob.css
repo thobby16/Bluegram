@@ -85,10 +85,25 @@
 
     color: #0056C6;
 }
-.searchBody1 .searchBody2 .row{
-    margin-left: 0;
-    margin-right: 0;
+.searchBody1 .searchBody3{
+    column-count: 3;
+    float: left;
+    width: 71%;
+    margin-left: 3%;
+    margin-top: 60px;
+    column-gap: 30px;
+}
+.searchBody1 .searchBody3 .searchJob-class.card{
+    margin-bottom: 30px;
+}
+.searchBody1 .searchBody3 .searchJob-class.card .card-body span.love{
+    position: absolute;
+    padding-left: 42%;
 
+}
+.searchBody1 .searchBody3 .searchJob-class.card .card-body span.fulltime{
+    position: absolute;
+    margin-left: -39%;
 }
 .searchBody1 .searchBody2 .last.card .card-body .card-title.h5{
     font-family: Source Sans Pro;
