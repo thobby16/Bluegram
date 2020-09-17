@@ -1,0 +1,27 @@
+.modal-open .fade.modal.show .modal-content .modal-body h4{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #0A1128;
+    margin-top: 30px;
+    padding-left: 19px;
+}
+.modal-open .fade.modal.show .modal-content .modal-body span.submitIcon{
+    margin-left: 29%;
+    
+   
+    margin-bottom: 34px;
+
+}
+.modal-open .fade.modal.show .modal-content .modal-body .btn{
+    width: 37%;
+    margin-top: 63px;
+    margin-left: 31%;
+    padding-left: 11%;
+    height: 44px;
+    background: #0056C6;
+    border-radius: 5px;
+}

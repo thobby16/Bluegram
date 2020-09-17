@@ -10,6 +10,7 @@ import deloitee2 from '../../../images/deloitee2.png'
 import FullTime from '../../icons/latestJobsIcons/fulltime'
 import PartTime from '../../icons/latestJobsIcons/partTime'
 import Back from '../../icons/myJobsIcons/back'
+import {Link } from 'react-router-dom'
 
 
 
@@ -75,7 +76,7 @@ class apply extends Component{
                                 <h4>Accounting  Intern</h4>
                                     <span className="locationIcon"><Location/></span>
                                     <span className="dollarIcon"><Dollar/></span>
-                                    <Button>Apply Now</Button>
+                                    <Button as ={Link} to="/ApplicationForm">Apply Now</Button>
                                     <Card.Link href="#">Job</Card.Link>
                                     <Card.Link href="#">Company</Card.Link>
                                     <Card.Link href="#">Benefits</Card.Link>
